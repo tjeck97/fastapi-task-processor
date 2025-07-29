@@ -7,17 +7,20 @@ A FastAPI microservice for managing and processing tasks asynchronously. Each ta
 Project Structure
 -----------------
 .
-├── main.py                   # FastAPI app entrypoint  
-├── models/                   # SQLAlchemy models  
-├── schemas/                  # Pydantic schemas  
-├── routes/                   # API route definitions  
-├── db/                       # DB session and base config  
-├── services/  
+Project Structure
+-----------------
+
+├── main.py                 # FastAPI app entrypoint  
+├── models/                 # SQLAlchemy models  
+├── schemas/                # Pydantic schemas  
+├── routes/                 # API route definitions  
+├── db/                     # DB session and base config  
+├── services/               # Background processing logic  
 │   └── background_worker.py  # Background task processor  
-├── settings.py               # Environment-specific settings  
-├── tests/                    # unit tests 
+├── settings.py             # Environment-specific settings  
+├── tests/                  # Unit tests  
 ├── requirements.txt  
-└── README.md  
+└── README.md
 
 Getting Started
 ---------------
